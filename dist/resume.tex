@@ -1,0 +1,78 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+% Personal information
+\newcommand{\fullname}{Tu Nombre}
+\newcommand{\email}{tucorreo@email.com}
+\newcommand{\linkedin}{\href{https://www.linkedin.com/in/tuperfil}{linkedin.com/in/tuperfil}}
+\newcommand{\github}{\href{https://github.com/tuusuario}{github.com/tuusuario}}
+\newcommand{\website}{\href{https://www.tusitio.com}{tusitio.com}}
+\newcommand{\phone}{+123 456 7890}
+
+% Custom itemize for tighter spacing
+\newenvironment{tightitemize}{
+\begin{itemize}[noitemsep,topsep=0pt]
+}{\end{itemize}}
+
+\title{RESUME1}
+\author{alfredobr587 }
+\date{August 2023}
+
+
+\begin{document}
+
+\pagestyle{empty} % No page numbers
+
+% Header
+\begin{center}
+    {\Huge \textbf{\fullname}} \\
+    \vspace{5pt}
+    {\small \textit{Estudiante de Ingeniería en Sistemas Computacionales}} \\
+    \vspace{5pt}
+    \faEnvelope \hspace{2pt} \email \hspace{10pt}
+    \faLinkedin \hspace{2pt} \linkedin \hspace{10pt}
+    \faGithub \hspace{2pt} \github \hspace{10pt}
+    \faGlobe \hspace{2pt} \website \hspace{10pt}
+    \faPhone \hspace{2pt} \phone
+\end{center}
+
+% Education section
+\section*{Educación}
+\textbf{Nombre de la Universidad} \\
+\textit{Ingeniería en Sistemas Computacionales} \\
+Fecha de Graduación: Mes Año Esperado \\
+Otras notas sobre la educación, logros, etc.
+
+% Projects section
+\section*{Proyectos}
+\begin{tightitemize}
+    \item \textbf{Proyecto 1} -- Descripción breve del proyecto, tecnologías utilizadas, logros, etc.
+    \item \textbf{Proyecto 2} -- Descripción breve del proyecto, tecnologías utilizadas, logros, etc.
+\end{tightitemize}
+
+% Leadership and awards section
+\section*{Liderazgo y Premios}
+\begin{tightitemize}
+    \item \textbf{Líder en...} -- Descripción de tu papel como líder en cierta actividad o grupo.
+    \item \textbf{Premio X} -- Descripción del premio y el logro por el que lo obtuviste.
+\end{tightitemize}
+
+% Courses and apprenticeships section
+\section*{Cursos y Aprendizajes}
+\begin{tightitemize}
+    \item \textbf{Curso X} -- Descripción breve del curso y lo que aprendiste.
+    \item \textbf{Aprendizaje Y} -- Descripción breve del aprendizaje o taller y lo que obtuviste.
+\end{tightitemize}
+
+% Programming languages section
+\section*{Lenguajes de Programación}
+Lenguaje 1, Lenguaje 2, Lenguaje 3
+
+% Other Technologies section
+\section*{Otras Tecnologías}
+Tecnología 1, Tecnología 2, Tecnología 3
+
+\end{document}
