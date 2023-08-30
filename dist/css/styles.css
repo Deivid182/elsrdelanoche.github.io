@@ -11732,8 +11732,3 @@ html {
     left: -2vw;
   }
 }
-#typing-effect {
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .15em solid orange; /* Efecto del cursor */
-  }
